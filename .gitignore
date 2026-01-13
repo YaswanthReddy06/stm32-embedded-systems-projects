@@ -1,0 +1,39 @@
+########################################
+# STM32 / CubeIDE / FreeRTOS (GLOBAL)
+########################################
+
+# ---- Build output folders ----
+**/Debug/
+**/Release/
+**/build/
+
+# ---- Compiled binaries ----
+**/*.elf
+**/*.hex
+**/*.bin
+**/*.map
+**/*.list
+**/*.lst
+**/*.o
+**/*.a
+**/*.d
+**/*.su
+**/*.cyclo
+**/*.size
+**/*.srec
+
+# ---- Make / auto-generated build files ----
+**/objects.list
+**/objects.mk
+**/sources.mk
+**/makefile
+**/*.dep
+
+# ---- Eclipse / STM32CubeIDE ----
+**/.settings/
+**/*.launch
+**/.metadata/
+
+# ---- OS junk ----
+**/.DS_Store
+**/Thumbs.db
